@@ -1,0 +1,563 @@
+[
+	{
+		"id": "mashine-001",
+		"name": "Foxx Viper Fox 01 Vintage Lot #1 RCA",
+		"type": "тату машинки машинка",
+		"brand": "Ink Machines",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 2,
+		"discount": 14,
+		"price": 11000,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "gloves-001",
+		"name": "Нитровиниловые перчатки 02 Wally Plastic S",
+		"type": "Защита, ёмкости, расходники",
+		"brand": "Hanafy",
+		"added date": {
+			"day": 14,
+			"month": 5,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 30,
+		"discount": 0,
+		"price": 500,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "holders-001",
+		"name": "Forever Cartridge Grip 03 Ergo 30mm Огненно-Рыжий лыс",
+		"type": "держатель Тату держатели",
+		"brand": "Tattoo Revive",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 7,
+		"discount": 6,
+		"price": 2037,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "powerbank-001",
+		"name": "Foxxx Power Bank, 04 банка супер силы",
+		"type": "блок Блоки питания",
+		"brand": "Aloe Tattoo",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 5,
+		"discount": 8,
+		"price": 4043,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "pedal-001",
+		"name": "Foxxx Custom NC 05 Footswitch #2 Vintage, измени пяткой",
+		"type": "педаль Педали и провода",
+		"brand": "Dermalize",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 8,
+		"discount": 0,
+		"price": 3500,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "ink-001",
+		"name": "КРАСКА Tattoo Ink Малевич 06 Черный 50 мл, почуствуй себя квадратом",
+		"type": "тату краски краска",
+		"brand": "Kuro Sumi",
+		"added date": {
+			"day": 14,
+			"month": 5,
+			"year": 2023
+		},
+		"top": true,
+		"action": true,
+		"quantity": 20,
+		"discount": 0,
+		"price": 650,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "nozzle-001",
+		"name": "Тату наконечник 07 на конец тату",
+		"type": "наконечник Тату наконечники",
+		"brand": "Face Body",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 100,
+		"discount": 0,
+		"price": 750,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "needle-001",
+		"name": "Тату иглы, 08 набор, заколи себя сам",
+		"type": "Тату иглы игла",
+		"brand": "H2Ocean",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 20,
+		"discount": 0,
+		"price": 100,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "printer-001",
+		"name": "Тату принтер, супер 09 печать на лбу злого соседа",
+		"type": "принтер Принтеры и планшеты",
+		"brand": "Cheyenne",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 2,
+		"discount": 12,
+		"price": 18000,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "accessories-001",
+		"name": "Тату аксессуары, 10 куча бесполезного барахла",
+		"type": "аксессуары",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 11,
+		"discount": 7,
+		"price": 5051,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "kit-001",
+		"name": "Тату набор всякой 11 всячины",
+		"type": "тату наборы Наборы для татуировок",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 14,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 0,
+		"discount": 0,
+		"price": 30000,
+		"preview": "goods01.webp"
+	},
+	{
+		"id": "mashine-002",
+		"name": "Deuce Machines Direct Drive 12 RCA Samurai",
+		"type": "тату машинки машинка",
+		"brand": "Ink Machines",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 2,
+		"discount": 14,
+		"price": 9000,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "gloves-002",
+		"name": "Нитровиниловые перчатки Wally 13 Plastic S",
+		"type": "Защита, ёмкости, расходники",
+		"brand": "Hanafy",
+		"added date": {
+			"day": 18,
+			"month": 5,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 20,
+		"discount": 1,
+		"price": 570,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "holders-002",
+		"name": "Forever Cartridge Grip 14 Ergo 30mm Огненно-Рыжий лыс",
+		"type": "держатель Тату держатели",
+		"brand": "Tattoo Revive",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 10,
+		"discount": 5,
+		"price": 2537,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "powerbank-002",
+		"name": "Foxxx Power Bank, 15 банка супер силы",
+		"type": "блок Блоки питания",
+		"brand": "Aloe Tattoo",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 10,
+		"discount": 3,
+		"price": 3043,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "pedal-002",
+		"name": "Foxxx Custom NC Footswitch 16 #2 Vintage, измени пяткой",
+		"type": "педаль Педали и провода",
+		"brand": "Dermalize",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 12,
+		"discount": 15,
+		"price": 4570,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "ink-002",
+		"name": "КРАСКА Tattoo Ink Малевич Черный 17 50 мл, почуствуй себя квадратом",
+		"type": "тату краски краска",
+		"brand": "Kuro Sumi",
+		"added date": {
+			"day": 18,
+			"month": 5,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 7,
+		"discount": 3,
+		"price": 789,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "nozzle-002",
+		"name": "Тату наконечник на 18 конец тату",
+		"type": "наконечник Тату наконечники",
+		"brand": "Face Body",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 152,
+		"discount": 0,
+		"price": 950,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "needle-002",
+		"name": "Тату иглы, набор, заколи 19 себя сам",
+		"type": "Тату иглы игла",
+		"brand": "H2Ocean",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 14,
+		"discount": 20,
+		"price": 193,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "printer-002",
+		"name": "Тату принтер, супер печать 20 на лбу злого соседа",
+		"type": "принтер Принтеры и планшеты",
+		"brand": "Cheyenne",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 2,
+		"discount": 0,
+		"price": 14200,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "accessories-002",
+		"name": "Тату аксессуары, куча 21 бесполезного барахла",
+		"type": "аксессуары",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 0,
+		"discount": 0,
+		"price": 2251,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "kit-002",
+		"name": "Тату набор всякой 22 всячины",
+		"type": "тату наборы Наборы для татуировок",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 18,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 4,
+		"discount": 7,
+		"price": 37025,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "mashine-003",
+		"name": "Cyborg Machines Alter 23 Rotary Axis Cross Sexy",
+		"type": "тату машинки машинка",
+		"brand": "Ink Machines",
+		"added date": {
+			"day": 19,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 0,
+		"discount": 14,
+		"price": 7000,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "gloves-003",
+		"name": "Нитровиниловые перчатки Wally 24 Plastic S",
+		"type": "Защита, ёмкости, расходники",
+		"brand": "Hanafy",
+		"added date": {
+			"day": 20,
+			"month": 5,
+			"year": 2023
+		},
+		"top": true,
+		"action": true,
+		"quantity": 10,
+		"discount": 0,
+		"price": 670,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "holders-003",
+		"name": "Forever Cartridge Grip Ergo 30mm 25 Огненно-Рыжий лыс",
+		"type": "держатель Тату держатели",
+		"brand": "Tattoo Revive",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 5,
+		"discount": 0,
+		"price": 4530,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "powerbank-003",
+		"name": "Foxxx Power Bank, банка 26 супер силы",
+		"type": "блок Блоки питания",
+		"brand": "Aloe Tattoo",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 0,
+		"discount": 3,
+		"price": 8043,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "pedal-003",
+		"name": "Foxxx Custom NC Footswitch #2 27 Vintage, измени пяткой",
+		"type": "педаль Педали и провода",
+		"brand": "Dermalize",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 6,
+		"discount": 10,
+		"price": 7570,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "ink-003",
+		"name": "КРАСКА Tattoo Ink Малевич Черный 50 28 мл, почуствуй себя квадратом",
+		"type": "тату краски краска",
+		"brand": "Kuro Sumi",
+		"added date": {
+			"day": 20,
+			"month": 5,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 12,
+		"discount": 0,
+		"price": 400,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "nozzle-003",
+		"name": "Тату наконечник 29 на конец тату",
+		"type": "наконечник Тату наконечники",
+		"brand": "Face Body",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 19,
+		"discount": 0,
+		"price": 320,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "needle-003",
+		"name": "Тату иглы, набор, 30 заколи себя сам",
+		"type": "Тату иглы игла",
+		"brand": "H2Ocean",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": true,
+		"quantity": 10,
+		"discount": 0,
+		"price": 90,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "printer-003",
+		"name": "Тату принтер, супер печать 31 на лбу злого соседа",
+		"type": "принтер Принтеры и планшеты",
+		"brand": "Cheyenne",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": true,
+		"action": false,
+		"quantity": 0,
+		"discount": 0,
+		"price": 11200,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "accessories-003",
+		"name": "Тату аксессуары, 32 куча бесполезного барахла",
+		"type": "аксессуары",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 8,
+		"discount": 0,
+		"price": 7251,
+		"preview": "goods01.jpg"
+	},
+	{
+		"id": "kit-003",
+		"name": "Тату набор всякой 33 всячины",
+		"type": "тату наборы Наборы для татуировок",
+		"brand": "Kwadron",
+		"added date": {
+			"day": 20,
+			"month": 6,
+			"year": 2023
+		},
+		"top": false,
+		"action": false,
+		"quantity": 1,
+		"discount": 15,
+		"price": 38025,
+		"preview": "goods01.jpg"
+	}
+]
