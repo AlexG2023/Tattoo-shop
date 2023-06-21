@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Политика конфиденциальности</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/icon/faviconTattoo.png">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+				<div class="header__row-top container">
+					<div class="header__burger">
+						Меню
+						<div class="header__burger-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<a href="index.html" class="header__logo main__logo"><img src="img/icon/main-logo.svg" alt="main-logo"></a>
+					<div class="header__cart">
+						<output class="header__cart-price">0</output>
+						<a href="cart.html" class="header__cart-link"><img src="img/icon/cart-icon.svg" alt="cart-icon"><output class="header__goods hidden" id="cart-count">0</output></a>
+					</div>
+				</div>
+
+				<div class="line_t"></div>
+				<nav class="header__row-bottom container">
+					<div class="header__catalog">
+						<div class="header__catalog-btn">
+						Каталог
+						<div class="header__burger-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="header__squear">
+					<ul class="header__catalog-list">
+						<li class="header__catalog-sort-block line_b filter">
+							<button type="button" class="header__catalog-sort link_decor filter-el">Категории</button>
+							<!-- <button type="button" class="header__catalog-sort filter-el">По брендам</button> -->
+						</li>
+						<li class="header__catalog-category">
+							<ul class="header__catalog-sub-list">
+								<li class="line_l"></li>
+								<li><a href="catalog.html" class="header__catalog-link">Все категории</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату наборы">Наборы для татуировок</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату машинки">Тату машинки</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Краски">Тату краски</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату иглы">Тату иглы</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing"data-way="Держатели">Тату держатели</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Наконечники">Тату наконечники</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Блоки питания">Блоки питания</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Педали и провода">Педали и провода</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Аксессуары">Аксессуары</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Принтеры и планшеты">Принтеры и планшеты</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Защита, ёмкости, расходники">Защита, ёмкости, расходные материалы</a></li>
+							</ul>
+						</li>
+						<!-- <li class="header__catalog-brands hidden">
+							<ul class="header__catalog-sub-list">
+								<li><a href="brands.html" class="header__catalog-link">Kuro Sumi</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Hanafy</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Tattoo Revive</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Aloe Tattoo</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Dermalize</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Face Body</a></li>
+								<li><a href="brands.html" class="header__catalog-link">H2Ocean</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Ink Machines</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Cheyenne</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Kwadron</a></li>
+							</ul>
+						</li> -->
+					</ul>
+					</div>
+				</div>
+					<ul class="header__nav-list">
+						<li><a href="promocodes.html" class="header__nav-link">Промокоды</a></li>
+						<li><a href="discount.html" class="header__nav-link">Скидки</a></li>
+						<li><a href="help.html" class="header__nav-link">Помощь</a></li>
+						<li><a href="about.html" class="header__nav-link">О нас</a></li>
+						<li><a href="contacts.html" class="header__nav-link">Контакты</a></li>
+					</ul>
+
+					<ul class="header__room">
+						<li><a href="chosen.html" class="header__nav-link"><img src="img/icon/chosen.svg" alt="chosen"><span>Избранное</span><output class="header__goods hidden" id="chosen-count">0</output></a></li>
+						<li><a href="my-room.html" class="header__nav-link"><img src="img/icon/room-icon.svg" alt="room-icon"><span>Личный кабинет</span><output class="header__goods hidden" id="room-count">0</output></a></li>
+					</ul>
+
+					<div class="header__search" tabindex="1">
+						<button type="button" class="header__search-btn"><img src="img/icon/Search-icon.svg" alt="Search-icon"></button>
+						<input type="search" name="search_querty" maxlength="70" placeholder="Поиск">
+					</div>
+
+					<div class="header__line line_t"></div>
+					<div class="header__contacts footer__row footer__row_1">
+					<div class="footer__socity">
+						<a href="tel:88006006191" class="footer__socity-number"><img src="img/icon/Call-icon.svg" alt="">8 800 600-61-91</a>
+						<a href="https://telegram.me" class="footer__socity-icon" target="blank"><img src="img/icon/Telegram_black.svg" alt="Telegram"><span>Telegram</span></a>
+						<a href="viber://chat?number=B88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/Viber.svg" alt="Viber"><span>Viber</span></a>
+						<a href="https://wa.me/88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/WhatS.svg" alt="WhatS App"><span>Whats App</span></a>
+					</div>
+					<time class="footer__work-time" datetime="09:00">Время работы: с 9:00 до 20:00 по мск</time>
+					<address><a href="mailto:Mr.Driskell@mail.ru" class="footer__mail mail__link"><img src="img/icon/mail-icon.svg" alt="mail-icon">Mr.Driskell@mail.ru</a></address>
+				</div>
+				</nav>
+		</header>
+
+		<main class="agreement content">
+			<div class="agreement__container container">
+				<ul class="agreement__way page-way">
+					<li><a href="index.html" class="page-way__link">Главная /</a></li>
+					<li><a href="catalog.html" class="page-way__link">Каталог /</a></li>
+					<li><a href="cart.html" class="page-way__link">Корзина /</a></li>
+					<li>Политика конфиденциальности сайта</li>
+				</ul>
+				<h2 class="agreement__title title_h2">Политика конфиденциальности сайта</h2>
+				<article class="agreement__article text_h2">
+					<p>Администрация сайта с уважением относится к правам посетителей Сайта. Мы безоговорочно признаем важность конфиденциальности личной информации посетителей нашего Сайта. Данная страница содержит сведения о том, какую информацию мы получаем и собираем, когда Вы пользуетесь Сайтом. Мы надеемся, что эти сведения помогут Вам принимать осознанные решения в отношении предоставляемой нам личной информации.</p>
+					<h3 class="title_h3">Цель сбора информации</h3>
+					<p>Сведения, которые мы получаем на Сайте, могут быть использованы только для исполнения обязательств по договору купли-продажи товаров, включая следующее:</p>
+					<ol>
+						<li>обработка заказов</li>
+						<li>обращения в службу поддержки</li>
+						<li>организация доставки товара</li>
+						<li>обработка платежей</li>
+						<li>уведомления по электронной почте и SMS о статусах заказов</li>
+						<li>рассылка уведомлений по электронной почте и SMS о специальных акциях и обновлении ассортимента, если Вы хотите получать такие уведомления</li>
+						<li>предоставление регистрации с целью получения доступа к личному кабинету покупателя</li>
+						<li>предоставление оплаты заказов на Сайте</li>
+					</ol>
+					<p>Мы также можем использовать персональную информацию для внутренних целей, таких как: проведение аудита, анализ данных и различных исследований в целях улучшения продуктов и услуг Сайта.</p>
+					<h3 class="title_h3">Собираемая информация</h3>
+					<p>Сайт собирает только личную информацию, которую Вы предоставляете добровольно при посещении или регистрации на Сайте. Понятие «личная информация» включает информацию, которая определяет Вас как конкретное лицо и состоит из следующих данных:</p>
+					<ol>
+						<li>Имя</li>
+						<li>Фамилия</li>
+						<li>Отчество (предоставляется по желанию)</li>
+						<li>E-mail адрес</li>
+						<li>Номер мобильного телефона</li>
+						<li>Номер стационарного телефона (предоставляется по желанию)</li>
+						<li>Почтовый адрес</li>
+					</ol>
+					<h3 class="title_h3">Защита собираемой информации</h3>
+					<p>Мы предпринимаем все разумные меры предосторожности для сохранности Ваших личных данных. Доступ к Вашим личным данным ограничен в целях предотвращения несанкционированного доступа, изменения или неправомерного использования, и разрешен только для наших сотрудников и агентов на основе принципа служебной необходимости.</p>
+					<h3 class="title_h3">Использование cookies</h3>
+					<p>Сайт применяет технологию «cookies» (далее Cookies) для создания статистической отчетности. Cookies представляет собой небольшой объем данных, отсылаемый Сайтом, который браузер Вашего компьютера сохраняет на жестком диске Вашего же компьютера. В Cookies содержится информация, которая может быть необходимой для Сайта, - для сохранения товаров в Вашей корзине, избранном, авторизации на сайте, сохранения Ваших установок вариантов просмотра и сбора статистической информации по Сайту, т.е. какие страницы Вы посетили, что было загружено, имя домена интернет-провайдера и страна посетителя, а также адреса сторонних веб-сайтов, с которых совершен переход на Сайт. Однако вся эта информация никак не связана с Вами как с личностью. Cookies не записывают Ваш адрес электронной почты и какие-либо личные сведения относительно Вас.</p>
+					<p>Также данную технологию используют установленные на сайте счетчики Liveinternet.ru, Google Analytics, Rambler Top100.</p>
+					<h3 class="title_h3">Посещение Сайта без Cookies</h3>
+					<p>Мы не запрещаем и никак не ограничиваем просмотр большинства страниц сайта пользователям, использующим браузеры без поддержки технологии Cookies. Тем не менее, некоторый функционал сайта окажется недоступен:</p>
+					<ol>
+						<li>Корзина заказа и формирование заказа с последующей отправкой</li>
+						<li>Авторизация на сайте</li>
+						<li>Личный кабинет</li>
+					</ol>
+					<h3 class="title_h3">Обработка запросов к серверу</h3>
+					<p>Мы используем стандартные журналы учета веб-сервера для подсчета количества посетителей и оценки технических возможностей нашего Сайта. Информация собирается с целью определения общего числа посетителей Сайта, организации страниц наиболее удобным для пользователей способом, обеспечения соответствия Сайта используемым браузерам и сделать содержание наших страниц максимально полезным для наших посетителей. Мы записываем сведения по перемещениям на Сайте, но не об отдельных посетителях Сайта, так что никакая конкретная информация относительно Вас лично не будет сохраняться или использоваться Администрацией Сайта без Вашего согласия</p>
+					<h3 class="title_h3">Совместное использование информации</h3>
+					<p>Администрация Сайта ни при каких обстоятельствах не продает и не отдает в пользование Вашу личную информацию, каким бы то ни было третьим сторонам. Мы также не раскрываем предоставленную Вами личную информацию за исключением случаев предусмотренных настоящей Политикой и законодательством Российской Федерации.</p>
+					<p>Сайт вправе поручить обработку Ваших персональных данных третьим лицам, а именно:эквайреру (кредитной организации, обрабатывающей платежи по банковским картам), службе доставки, сервисным центрам и иным поставщикам работ и услуг, вовлечённым в процесс продажи товаров Сайта и их последующего обслуживания.</p>
+					<p>Администрация сайта имеет партнерские отношения с компанией Google и размещает рекламные объявления в системе Google Adwords. В рамках данного сотрудничества Администрация сайта доводит до сведения всех заинтересованных сторон следующую информацию:</p>
+					<ol>
+						<li>компания Google как сторонний поставщик использует Cookies для показа фиксации активности посетителей Сайта;</li>
+						<li>использование компанией Google файлов cookie DART позволяет ей собирать и использовать информацию о посетителях Сайта (за исключением имени, адреса, адреса электронной почты или номера телефона), о Ваших посещениях Сайта и других веб-сайтов с целью предоставления наиболее релевантных объявлений о товарах и услугах</li>
+						<li>компания Google в процессе сбора данной информации руководствуется собственной политикой конфидециальности</li>
+						<li>пользователи Сайта могут отказаться от использования файлов cookie DART, посетив страницу с политикой конфиденциальности для объявлений и сети партнерских сайтов Google</li>
+					</ol>
+					<h3 class="title_h3">Персональные данные уничтожаются при:</h3>
+					<ol>
+						<li>самостоятельном удалении Вами данных из личного кабинета покупателя</li>
+						<li>при отзыве субъектом персональных данных согласия на обработку персональных данных</li>
+						<li>иных случаях, предусмотренных Законодательством РФ</li>
+					</ol>
+					<p>Мы будем хранить Ваши персональные данные и информацию в течение срока, необходимого для выполнения целей, описываемых в настоящей Политике Конфиденциальности, за исключением случаев, когда более длительный период хранения данных и информации необходим в соответствии с законодательством, либо разрешён им.</p>
+					<p>Вы вправе направлять Администрации Сайта свои запросы, в том числе запросы относительно использования своих персональных данных, направления отзыва согласия на обработку персональных данных в письменной форме по адресу, указанному в разделе «Данные руководящей организации».</p>
+					<h3 class="title_h3">Доступ несовершеннолетним</h3>
+					<p>Сайт предназначен для посещения только совершеннолетними пользователями. Доступ к некоторым частям Сайта и / или право на получение призов, образцов продукции или других вознаграждений может иметь возрастные ограничения. Мы можем использовать Ваши персональные данные для проверки возраста и применять любые возрастные ограничения.</p>
+					<h3 class="title_h3">Уведомления с Сайта</h3>
+					<p>Мы можем отправлять зарегистрированным пользователям уведомления о статусах заказов, а также текущих акциях, обновлении ассортимента продукции на Сайте или иную информацию рекламного характера на адрес электронной почты или номер телефона. Пользователь может в любое время отказаться от уведомлений рекламного характера, отключив их в настройках в личном кабинете на Сайте. Напоминание о возможности отказа от уведомлений всегда располагается в нижней части отправляемого пользователю сообщения.</p>
+					<h3 class="title_h3">Изменения в нашей политике конфеденциальности</h3>
+					<p>По мере необходимости мы можем изменить Политику конфиденциальности путем размещения ее обновленной версии на Сайте. Мы уведомим Вас о любом существенном изменении заблаговременно. Также мы призываем Вас чаще посещать Сайт, чтобы быть в курсе того, как мы используем Вашу личную информацию.</p>
+					<h3 class="">Отказ от ответственности</h3>
+					<p>Помните, что передача информации личного характера при посещении сторонних сайтов, включая сайты компаний-партнеров, даже если веб-сайт содержит ссылку на Сайт или, в свою очередь, на нашем Сайте есть ссылка на эти веб-сайты, не подпадает под действия данного документа. Администрация Сайта не несет ответственности за действия других веб-сайтов. Процесс сбора и передачи информации личного характера при посещении этих сайтов регламентируется документом «Защита информации личного характера» или другим аналогичным, расположенном на сайтах этих компаний.</p>
+					<time datetime="2023-04-26">Дата изменения документа: 26 апреля 2023 года</time>
+					<a href="offerta.html" class="link_decor">Публичный договор-оферта</a>
+				</article>
+			</div>
+			<div class="modal rigistration-code-modal hidden">
+				<form action="#" class="modal__window registration-form registration-form__code">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="registration-form__title title_h7">Введите код</div>
+					<div class="registration-form__password">
+						<fieldset class="registration-form__number-pass">
+							<input type="text" maxlength="1" required name="phone-pass01">
+							<input type="text" maxlength="1" required name="phone-pass02">
+							<input type="text" maxlength="1" required name="phone-pass03">
+							<input type="text" maxlength="1" required name="phone-pass04">
+						</fieldset>
+						<button class="registration-form__password-btn">Ok</button>
+					</div>
+					<div class="registration-form__text text_h9">Вам потупит звонок на <b>+7 (999)529-00-01</b> Введите последние 4 цифры звонящего номера. Получить новый код можно будет через <span>01:48</span></div>
+					<div class="registration-form__btn">
+						<button class="link_decor" type="submit">Не приходит код</button>
+					</div>
+					<div class="cart-form__agreement">
+						<label class="registration-form__checkbox cart-form__checkbox btn_ch add-active" for="rigistration-code-rule"><input type="checkbox" name="agreement" id="rigistration-code-rule" value="agree" checked></label>
+						<div class="cart-form__agreement-links">При воходе или регистрации вы соглашаетесь с условиями предоставления сервиса</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="modal rigistration-modal hidden">
+				<form action="#" class="modal__window registration-form">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="registration-form__title title_h7">Личный кабинет</div>
+					<label for="reg-number" class="registration-form__number main-form__form-input">
+						<span class="text_h9">Введите номер</span>
+						<input class="text_h9" id="reg-number" type="text" required name="reg-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
+					</label>
+					<div class="registration-form__btn">
+						<button class="btn_1" type="submit"><span>Получить код в SMS</span></button>
+					</div>
+					<div class="cart-form__agreement">
+						<label class="registration-form__checkbox cart-form__checkbox btn_ch add-active" for="rigistration-rule"><input type="checkbox" name="agreement" id="rigistration-rule" value="agree" checked></label>
+						<div class="cart-form__agreement-links">При воходе или регистрации вы соглашаетесь с условиями предоставления сервиса</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__row">
+					<div class="footer__column">
+						<a href="index.html" class="footer__logo main__logo"><img src="img/icon/main-logo.svg" alt="main-logo"></a>
+						<a href="agreement.html" class="footer__politic">Политика конфенедциальности</a>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__list">
+							<li>
+								<ul class="footer__sub-list">
+									<li><a href="promocodes.html" class="footer__link">Промокоды</a></li>
+									<li><a href="discount.html" class="footer__link">Скидки</a></li>
+									<li><a href="help.html" class="footer__link">Помощь</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul class="footer__sub-list">
+									<li><a href="about.html" class="footer__link">О нас</a></li>
+									<li><a href="contacts.html" class="footer__link">Контакты</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__line line_l"></div>
+				<div class="footer__line line_t"></div>
+					<div class="footer__row footer__row_1">
+					<div class="footer__socity">
+						<a href="tel:88006006191" class="footer__socity-number"><img src="img/icon/Call-icon.svg" alt="">8 800 600-61-91</a>
+						<a href="https://telegram.me" class="footer__socity-icon" target="blank"><img src="img/icon/Telegram_black.svg" alt="Telegram"></a>
+						<a href="viber://chat?number=B88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/Viber.svg" alt="Viber"></a>
+						<a href="https://wa.me/88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/WhatS.svg" alt="WhatS App"></a>
+					</div>
+					<time class="footer__work-time" datetime="09:00">Время работы: с 9:00 до 20:00 по мск</time>
+					<address><a href="mailto:Mr.Driskell@mail.ru" class="footer__mail mail__link"><img src="img/icon/mail-icon.svg" alt="mail-icon">Mr.Driskell@mail.ru</a></address>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="module" src="js/script.js"></script>
+</body>
+</html>

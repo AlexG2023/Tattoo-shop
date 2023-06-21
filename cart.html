@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Корзина</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/icon/faviconTattoo.png">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+				<div class="header__row-top container">
+					<div class="header__burger">
+						Меню
+						<div class="header__burger-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<a href="index.html" class="header__logo main__logo"><img src="img/icon/main-logo.svg" alt="main-logo"></a>
+					<div class="header__cart">
+						<output class="header__cart-price">0</output>
+						<a href="cart.html" class="header__cart-link header__nav-link_active"><img src="img/icon/cart-icon.svg" alt="cart-icon"><output class="header__goods hidden" id="cart-count">0</output></a>
+					</div>
+				</div>
+
+				<div class="line_t"></div>
+				<nav class="header__row-bottom container">
+					<div class="header__catalog">
+						<div class="header__catalog-btn">
+						Каталог
+						<div class="header__burger-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+					<div class="header__squear">
+					<ul class="header__catalog-list">
+						<li class="header__catalog-sort-block line_b filter">
+							<button type="button" class="header__catalog-sort link_decor filter-el">Категории</button>
+							<!-- <button type="button" class="header__catalog-sort filter-el">По брендам</button> -->
+						</li>
+						<li class="header__catalog-category">
+							<ul class="header__catalog-sub-list">
+								<li class="line_l"></li>
+								<li><a href="catalog.html" class="header__catalog-link">Все категории</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату наборы">Наборы для татуировок</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату машинки">Тату машинки</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Краски">Тату краски</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Тату иглы">Тату иглы</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing"data-way="Держатели">Тату держатели</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Наконечники">Тату наконечники</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Блоки питания">Блоки питания</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Педали и провода">Педали и провода</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Аксессуары">Аксессуары</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Принтеры и планшеты">Принтеры и планшеты</a></li>
+								<li><a href="catalog.html" class="header__catalog-link routing" data-way="Защита, ёмкости, расходники">Защита, ёмкости, расходные материалы</a></li>
+							</ul>
+						</li>
+						<!-- <li class="header__catalog-brands hidden">
+							<ul class="header__catalog-sub-list">
+								<li><a href="brands.html" class="header__catalog-link">Kuro Sumi</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Hanafy</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Tattoo Revive</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Aloe Tattoo</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Dermalize</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Face Body</a></li>
+								<li><a href="brands.html" class="header__catalog-link">H2Ocean</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Ink Machines</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Cheyenne</a></li>
+								<li><a href="brands.html" class="header__catalog-link">Kwadron</a></li>
+							</ul>
+						</li> -->
+					</ul>
+					</div>
+				</div>
+					<ul class="header__nav-list">
+						<li><a href="promocodes.html" class="header__nav-link">Промокоды</a></li>
+						<li><a href="discount.html" class="header__nav-link">Скидки</a></li>
+						<li><a href="help.html" class="header__nav-link">Помощь</a></li>
+						<li><a href="about.html" class="header__nav-link">О нас</a></li>
+						<li><a href="contacts.html" class="header__nav-link">Контакты</a></li>
+					</ul>
+
+					<ul class="header__room">
+						<li><a href="chosen.html" class="header__nav-link"><img src="img/icon/chosen.svg" alt="chosen"><span>Избранное</span><output class="header__goods hidden" id="chosen-count">0</output></a></li>
+						<li><a href="my-room.html" class="header__nav-link"><img src="img/icon/room-icon.svg" alt="room-icon"><span>Личный кабинет</span><output class="header__goods hidden" id="room-count">0</output></a></li>
+					</ul>
+
+					<div class="header__search" tabindex="1">
+						<button type="button" class="header__search-btn"><img src="img/icon/Search-icon.svg" alt="Search-icon"></button>
+						<input type="search" name="search_querty" maxlength="70" placeholder="Поиск">
+					</div>
+
+					<div class="header__line line_t"></div>
+					<div class="header__contacts footer__row footer__row_1">
+					<div class="footer__socity">
+						<a href="tel:88006006191" class="footer__socity-number"><img src="img/icon/Call-icon.svg" alt="">8 800 600-61-91</a>
+						<a href="https://telegram.me" class="footer__socity-icon" target="blank"><img src="img/icon/Telegram_black.svg" alt="Telegram"><span>Telegram</span></a>
+						<a href="viber://chat?number=B88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/Viber.svg" alt="Viber"><span>Viber</span></a>
+						<a href="https://wa.me/88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/WhatS.svg" alt="WhatS App"><span>Whats App</span></a>
+					</div>
+					<time class="footer__work-time" datetime="09:00">Время работы: с 9:00 до 20:00 по мск</time>
+					<address><a href="mailto:Mr.Driskell@mail.ru" class="footer__mail mail__link"><img src="img/icon/mail-icon.svg" alt="mail-icon">Mr.Driskell@mail.ru</a></address>
+				</div>
+				</nav>
+		</header>
+
+		<main class="content">
+			<section class="cart">
+				<div class="cart__container container">
+					<ul class="cart__way page-way">
+						<li><a href="index.html" class="page-way__link">Главная /</a></li>
+						<li><a href="catalog.html" class="page-way__link">Каталог /</a></li>
+						<li>Корзина</li>
+					</ul>
+					<h2 class="cart__title title_h2">Корзина</h2>
+				<div class="cart__block-cart">
+					<div class="cart__cart">
+
+						<div class="cart__table">
+
+							<ul class="cart__table-title line_b">
+								<li>Наименование</li>
+								<li>Цена</li>
+								<li>Количество</li>
+								<li>Стоимость</li>
+							</ul>
+
+						<ul class="cart__table-items">
+							<li class="title_h2">В корзине пусто</li>
+						</ul>
+						</div>
+
+						<form action="#" class="cart__form person-form">
+							<fieldset class="person-form__block">
+								<legend class="person-form__title title_h3">01. Информация о получателе</legend>
+								<div class="person-form__input person-form__fio">
+									<label for="fio" class="person-form__label">ФИО*</label>
+									<div><input id="fio" type="text" name="Ф.И.О" required placeholder="Иванов Иван Иванович" minlength="2" maxlength="40"></div>
+								</div>
+								<div class="person-form__input person-form__tel">
+									<label for="tel" class="person-form__label">Телефон*</label>
+									<div><input id="tel" type="tel" name="Телефон" required placeholder="8(800)555-35-35"></div>
+								</div>
+								<div class="person-form__input person-form__email">
+									<label for="email" class="person-form__label">Эл. почта</label>
+									<div><input id="email" type="email" name="Эл. почта" placeholder="Ivaniv2021@mail.ru"></div>
+								</div>
+							</fieldset>
+							<fieldset class="person-form__block">
+								<legend class="person-form__title title_h3">02. Адрес доставки</legend>
+								<div class="person-form__input person-form__city">
+									<label for="city" class="person-form__label">Город*</label>
+									<div><input id="city" type="text" name="Город" required placeholder="Москва"></div>
+								</div>
+								<div class="person-form__input person-form__home">
+									<label for="home" class="person-form__label">Улица, дом*</label>
+									<div><input id="home" type="text" name="Улица, дом" required placeholder="ул. Ленина д. 25"></div>
+								</div>
+								<div class="person-form__inputs-block">
+									<div class="person-form__input person-form__flat">
+									<label for="flat" class="person-form__label">Квартира / офис</label>
+									<div><input id="flat" type="text" name="Квартира/офис" placeholder="589"></div>
+								</div>
+								<div class="person-form__input person-form__porch">
+									<label for="porch" class="person-form__label">Подъезд</label>
+									<div><input id="porch" type="number" name="Подъезд" placeholder="5"></div>
+								</div>
+								<div class="person-form__input person-form__level">
+									<label for="level" class="person-form__label">Этаж</label>
+									<div><input id="level" type="number" name="Этаж" placeholder="5"></div>
+								</div>
+								<div class="person-form__input person-form__home-phone">
+									<label for="home-phone" class="person-form__label">Домофон</label>
+									<div><input id="home-phone" type="number" name="Домофон" placeholder="7350"></div>
+								</div>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+
+					<form action="#" class="cart__form cart-form">
+						<div class="cart-form__top">
+							<div class="cart-form__post line_b">
+								<fieldset>
+									<legend class="text_h4">Оплата</legend>
+									<div class="cart-form__variant">
+										<label class="cart-form__radio btn_r add-active" for="radio01"><input id="radio01" type="radio" name="type payment" value="Онлайн на сайте" checked>Онлайн на сайте</label>
+										<ul class="cart-form__about">
+											<li><img src="img/icon/what.svg" alt="what"></li>
+											<li class="cart-form__about-message">Оплата товара в интернете с помощью банковских карт.</li>
+										</ul>
+									</div>
+									<div class="cart-form__variant">
+										<label class="cart-form__radio btn_r add-active" for="radio02"><input id="radio02" type="radio" name="type payment" value="Наложенным платежом">Наложенным платежом</label>
+										<dl class="cart-form__about">
+											<dt><img src="img/icon/what.svg" alt="what"></dt>
+											<dd class="cart-form__about-message">Оплата товара наличными при получении в отделении Почты России, дополнительно оплачивается сбор в размере 2% от суммы платежа</dd>
+										</dl>
+									</div>
+									<div class="cart-form__variant">
+										<label class="cart-form__radio btn_r add-active" for="radio03"><input id="radio03" type="radio" name="type payment" value="Безналичный расчет">Безналичный расчет</label>
+										<dl class="cart-form__about">
+											<dt><img src="img/icon/what.svg" alt="what"></dt>
+											<dd class="cart-form__about-message">Оплата товара выполняется без применения наличных денег, средства поступают на банковский счет или электронный кошелек.</dd>
+										</dl>
+									</div>
+								</fieldset>
+								<fieldset>
+									<legend class="text_h4">Доставка</legend>
+									<div class="cart-form__variant">
+										<label class="cart-form__radio btn_r add-active" for="radio04"><input id="radio04" type="radio" name="type delivery" value="Курьерская служба" checked>Курьерская служба</label>
+										<dl class="cart-form__about">
+											<dt><img src="img/icon/what.svg" alt="what"></dt>
+											<dd class="cart-form__about-message">Стоимость доставки рассчитывается при звонке менеджером</dd>
+										</dl>
+									</div>
+									<div class="cart-form__variant">
+										<label class="cart-form__radio btn_r add-active" for="radio05"><input id="radio05" type="radio" name="type delivery" value="Почта России">Почта России</label>
+										<dl class="cart-form__about">
+											<dt><img src="img/icon/what.svg" alt="what"></dt>
+											<dd class="cart-form__about-message">Стоимость доставки по тарифам перевозчика</dd>
+										</dl>
+									</div>
+								</fieldset>
+							</div>
+							<div class="cart-form__price line_b">
+								<div class="cart-form__price-about">
+									<p>Всего единиц товара:</p>
+									<output id="q-goods">0</output>
+								</div>
+								<div class="cart-form__price-about">
+									<p>Общая скидка:</p>
+									<div><output id="total-discount">0</output>₽</div>
+								</div>
+								<div class="cart-form__price-about">
+									<p>Доп. услуги</p>
+									<div><output id="ad-service">0</output>₽</div>
+								</div>
+								<div class="cart-form__price-about">
+									<p>Итого:</p>
+									<div><output id="total-price">0</output>₽</div>
+								</div>
+								<fieldset>
+									<p class="cart-form__promo-text">Промокод</p>
+									<div class="cart-form__promo-input"><input type="text" name="promocode" minlength="5" maxlength="10" placeholder="Введите промокод"></div>
+									<div class="show__message message1">Неправильный промокод или недостаточная сумма покупки для его активации</div>
+									<div class="show__message message2">Промокод активирован</div>
+									<div class="cart-form__promo-btn"><button class="cart-promo-btn link_decor" type="button">Активировать промокод</button></div>
+								</fieldset>
+							</div>
+						</div>
+						<fieldset class="cart-form__btns">
+							<div class="show__message message3">Не заполнены обязательные поля</div>
+							<div class="show__message message4">Вы ничего не выбрали для заказа</div>
+							<a href="cart-services.html" class="cart-form__btn order-form btn_1"><span>Оформить заказ</span></a>
+							<button class="cart-form__btn btn_2 modal-open" data-modal="one-click-modal" type="button"><span>Купить в 1 клик</span></button>
+							<div class="cart-form__agreement">
+								<label class="cart-form__checkbox btn_ch add-active" for="rule"><input type="checkbox" name="agreement" id="rule" value="agree" checked></label>
+								<div class="cart-form__agreement-links">Согласен с <a href="offerta.html" target="blank">публичной офертой</a> и <a href="agreement.html" target="blank">обработкой персональных данных</a>.</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				</div>
+			</section>
+			<div class="modal one-click-modal hidden">
+				<form action="#" class="modal__window registration-form registration-form__code">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="registration-form__title title_h7">Купить в один клик</div>
+					<label for="one-click-number" class="registration-form__number main-form__form-input">
+						<span class="text_h9">Введите номер</span>
+						<input class="text_h9" id="one-click-number" type="number" required name="one-click-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
+					</label>
+					<div class="registration-form__text text_h9">Вам поступит звонок от нашего менеджера для уточнения деталей заказа</div>
+					<div class="registration-form__btn">
+						<button class="btn_1 send-order-click" type="button"><span>Оставить заявку</span></button>
+					</div>
+					<div class="cart-form__agreement">
+						<div class="show__message message5">Нужно согласится с правилами и указать номер, иначе номер будет установлен по умолчанию</div>
+						<div class="show__message message6">Отправляется</div>
+						<label class="registration-form__checkbox cart-form__checkbox btn_ch add-active" for="one-click-rule"><input type="checkbox" name="agreement" id="one-click-rule"></label>
+						<div class="cart-form__agreement-links">Вы соглашаетесь с условиями предоставления сервиса</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="modal order-modal hidden" data-modal="order-modal">
+				<div class="modal__window order">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="order__title title_h1">Спасибо за заказ!</div>
+					<div class="order__number text_h3">Номер вашего заказа: <span id="order-number">0</span></div>
+					<p class="order__text text_h8">В ближайшее время с вами свяжется наш менеджер для уточнения деталей заказа</p>
+					<div class="order__btns">
+						<a href="index.html" class="btn_1">Вернуться на главную</a>
+						<a href="catalog.html" class="link_decor text_h5">Вернуться в каталог</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal rigistration-code-modal hidden">
+				<form action="#" class="modal__window registration-form registration-form__code">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="registration-form__title title_h7">Введите код</div>
+					<div class="registration-form__password">
+						<fieldset class="registration-form__number-pass">
+							<input type="text" maxlength="1" required name="phone-pass01">
+							<input type="text" maxlength="1" required name="phone-pass02">
+							<input type="text" maxlength="1" required name="phone-pass03">
+							<input type="text" maxlength="1" required name="phone-pass04">
+						</fieldset>
+						<button class="registration-form__password-btn">Ok</button>
+					</div>
+					<div class="registration-form__text text_h9">Вам потупит звонок на <b>+7 (999)529-00-01</b> Введите последние 4 цифры звонящего номера. Получить новый код можно будет через <span>01:48</span></div>
+					<div class="registration-form__btn">
+						<button class="link_decor" type="submit">Не приходит код</button>
+					</div>
+					<div class="cart-form__agreement">
+						<label class="registration-form__checkbox cart-form__checkbox btn_ch add-active" for="rigistration-code-rule"><input type="checkbox" name="agreement" id="rigistration-code-rule" value="agree" checked></label>
+						<div class="cart-form__agreement-links">При воходе или регистрации вы соглашаетесь с условиями предоставления сервиса</div>
+					</div>
+				</form>
+			</div>
+
+			<div class="modal rigistration-modal hidden">
+				<form action="#" class="modal__window registration-form">
+					<button type="button" class="registration-form__close modal-close btn_d"></button>
+					<div class="registration-form__title title_h7">Личный кабинет</div>
+					<label for="reg-number" class="registration-form__number main-form__form-input">
+						<span class="text_h9">Введите номер</span>
+						<input class="text_h9" id="reg-number" type="text" required name="reg-number" placeholder="+7 ХХХ ХХХ ХХ ХХ">
+					</label>
+					<div class="registration-form__btn">
+						<button class="btn_1" type="submit"><span>Получить код в SMS</span></button>
+					</div>
+					<div class="cart-form__agreement">
+						<label class="registration-form__checkbox cart-form__checkbox btn_ch add-active" for="rigistration-rule"><input type="checkbox" name="agreement" id="rigistration-rule" value="agree" checked></label>
+						<div class="cart-form__agreement-links">При воходе или регистрации вы соглашаетесь с условиями предоставления сервиса</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__row">
+					<div class="footer__column">
+						<a href="index.html" class="footer__logo main__logo"><img src="img/icon/main-logo.svg" alt="main-logo"></a>
+						<a href="agreement.html" class="footer__politic">Политика конфенедциальности</a>
+					</div>
+					<nav class="footer__nav">
+						<ul class="footer__list">
+							<li>
+								<ul class="footer__sub-list">
+									<li><a href="promocodes.html" class="footer__link">Промокоды</a></li>
+									<li><a href="discount.html" class="footer__link">Скидки</a></li>
+									<li><a href="help.html" class="footer__link">Помощь</a></li>
+								</ul>
+							</li>
+							<li>
+								<ul class="footer__sub-list">
+									<li><a href="about.html" class="footer__link">О нас</a></li>
+									<li><a href="contacts.html" class="footer__link">Контакты</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__line line_l"></div>
+				<div class="footer__line line_t"></div>
+					<div class="footer__row footer__row_1">
+					<div class="footer__socity">
+						<a href="tel:88006006191" class="footer__socity-number"><img src="img/icon/Call-icon.svg" alt="">8 800 600-61-91</a>
+						<a href="https://telegram.me" class="footer__socity-icon" target="blank"><img src="img/icon/Telegram_black.svg" alt="Telegram"></a>
+						<a href="viber://chat?number=B88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/Viber.svg" alt="Viber"></a>
+						<a href="https://wa.me/88006006191" class="footer__socity-icon" target="blank"><img src="img/icon/WhatS.svg" alt="WhatS App"></a>
+					</div>
+					<time class="footer__work-time" datetime="09:00">Время работы: с 9:00 до 20:00 по мск</time>
+					<address><a href="mailto:Mr.Driskell@mail.ru" class="footer__mail mail__link"><img src="img/icon/mail-icon.svg" alt="mail-icon">Mr.Driskell@mail.ru</a></address>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script type="module" src="js/script.js"></script>
+</body>
+</html>
